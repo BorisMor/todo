@@ -6,6 +6,8 @@
 * [underscore.js](http://underscorejs.ru/) - как шабланизатор  
 * [Slim](https://www.slimframework.com/)  
 
+Тестовый пользователь: test\test 
+
 **Установка**
 
 Стили:

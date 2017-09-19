@@ -22,7 +22,7 @@ class TodoComponent extends BaseObject
     }
 
     /**
-     * Вернет экземляр компонента
+     * Вернет экземпляр компонента
      * @param AppTodo $config
      * @return static
      */

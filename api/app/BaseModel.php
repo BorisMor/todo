@@ -8,12 +8,11 @@ namespace app;
 /**
  * Class BaseModel
  * @package app
- * @property $pk Значение первичного ключа
  */
 abstract class BaseModel extends BaseObject
 {
 
-    /** @var null|string Поле отвечающее за первичнй ключ */
+    /** @var null|string Поле отвечающее за первичный ключ */
     protected static $pk = null;
 
     /**
@@ -22,12 +21,12 @@ abstract class BaseModel extends BaseObject
     abstract function insert();
 
     /**
-     * Обвноить запись
+     * Обновить запись
      */
     abstract function update();
 
     /**
-     * знчаения которые будут доступны через $attributes
+     * значения которые будут доступны через $attributes
      * @var array
      */
     protected static $_attributes = [];

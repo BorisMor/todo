@@ -5,7 +5,6 @@
 
 namespace app;
 
-use phpDocumentor\Reflection\DocBlock\Tags\Param;
 
 class Helper
 {
