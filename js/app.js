@@ -39,7 +39,7 @@
         };
 
         /**
-         * Прячем дилог и показываем основное прилождение
+         * Прячем диалог и показываем основное приложение
          */
         this.hide = function () {
             self.el.hide();
@@ -58,7 +58,7 @@
 
         /**
          * Проверка токена
-         * Если в наличие то переходим в овносное приложение и вернет сам токен
+         * Если в наличие, то переходим в основное приложение и вернет сам токен
          * @returns {undefined}
          */
         this.checkToken = function () {
@@ -72,7 +72,7 @@
             }
         };
 
-        // Обоаботка кнопки на авторизацию
+        // Обработка кнопки на авторизацию
         this.onClickButLogin = function (e) {
             self.gui.error.html("");
             $.ajax({
@@ -142,18 +142,18 @@
          * @type {{toggle: undefined, destroy: undefined}}
          */
         this.gui = {
-            // Перекллючатель выполненного события
+            // Переключатель выполненного события
             toggle: undefined,
             // Кнопка удаления
             destroy: undefined,
             // Лэйбл с описанием
             label: undefined,
-            // Input для редактирвоания title
+            // Input для редактирования title
             edit: undefined
         };
 
         /**
-         * Иницилизацуия элементов интерфейса
+         * Инициализация элементов интерфейса
          */
         this.initGUI = function () {
             self.gui.toggle = self.dom.find('input.toggle');
