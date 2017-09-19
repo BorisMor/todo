@@ -3,7 +3,7 @@
 Использовал:
 
 * jQuery  
-* [underscore.js](http://underscorejs.ru/) - шабланизатор  
+* [underscore.js](http://underscorejs.ru/) - как шабланизатор  
 * [Slim](https://www.slimframework.com/)  
 
 **Установка**
@@ -19,7 +19,7 @@ cd api
 ./composer install
 ```
 
-** База данных **
+**База данных**
 
 Скрипт: todo.sql  
 Настройки: api/config_db.php
