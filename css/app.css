@@ -1,0 +1,22 @@
+/*
+
+app-template.css overrides
+
+remove this comment if used
+remove this file if not
+
+*/
+
+
+		.but{
+			border: 2px solid;
+			border-color: rgba(253, 48, 48, 0.5);
+			padding: 10px 20px;
+			margin-top: 10px;
+		}
+
+		.logout{
+			position: fixed;
+			font-size: 11px;
+			top: 0px;
+		}

@@ -1,0 +1,15 @@
+{
+    "require": {
+        "slim/slim": "2.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "app\\component\\": "app/component/",
+            "app\\models\\": "app/models/"
+        }
+    }
+}
